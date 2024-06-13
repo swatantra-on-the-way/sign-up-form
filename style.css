@@ -127,7 +127,7 @@ body{
 .right-container{
     width: 65%;
     height: 100%;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'arbutusregular', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .right-container > * {
@@ -160,6 +160,7 @@ body{
 *************************
 ************************************************************** */
 .right-container > .container-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 45%;
     width: 100%;
     box-shadow: 5px 5px 20px 2px gray;
@@ -170,6 +171,8 @@ body{
 .container-2 h2{
     /* border: 2px solid red; */
     margin-bottom: 10px;
+    /* font-family */
+    font-family: inherit;
 }
 
 form{
@@ -223,6 +226,7 @@ input:invalid{
 .right-container > .container-3{
     font-size: 15px;
     height: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* border: 2px solid black; */
 }
 
@@ -236,9 +240,15 @@ input:invalid{
     background: #596D48;
     color: #ffffff;
     border: none;
-    border-radius: 4px;;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2.3px 4.6px 4.6px hsl(0deg 0% 0% / 0.43);
+    
 }
 
+.create-account-button>button:hover{
+    box-shadow: 5.4px 10.7px 10.7px hsl(0deg 0% 0% / 0.33);
+}
 .container-3 p > span{
     color: #596D48;
     font-weight: bold;
