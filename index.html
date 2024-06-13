@@ -20,7 +20,52 @@
             </div>
         </div>
     </div>
-    <div class="right-container"></div>
+    <div class="right-container">
+        <div class="container-1">
+            <div class = "text-1">The next evolution of social connection. Socialize, explore, create, play in ways that go beyond what you can imagine.</div>
+            <div class="text-2">Welcome to ODINVERSE.</div>
+        </div>
 
+        <div class="container-2">
+            <h2> Let's do this!</h2>
+            <form id = "sign-up-form">
+                <fieldset>
+                    <div>
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id = "first_name" name = "first_name" />
+                    </div>
+                    <div>
+                        <label for="last_name">LAST  NAME</label>
+                        <input type="text" id = "last_name" name = "last_name" />
+                    </div>
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name = "email" id = "email" />
+                    </div>
+                    <div> 
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name = "phone_number" id = "phone" />
+                    </div>
+                    <div>
+                        <label for="password-1">PASSWORD</label>
+                        <input type="password" id = "password-1" name = "password-1" required />
+                    </div>
+                    <div>
+                        <label for="password-2">CONFIRM PASSWORD</label>
+                        <input type="password" id = "password-2" name = "password-2" required />
+                    </div>
+                </fieldset>
+            </form>
+
+        </div>
+        <div class="container-3">
+            <div class = "create-account-button">
+                <button type = "submit" form = "sign-up-form">Create Account</button>
+            </div>
+            <p>
+                Already have an account? <span>Log in</span>
+            </p>
+        </div>
+    </div>
 </body>
 </html>
